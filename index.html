@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <title>Genetic Algorithm</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+
+  <div class="input-group">
+    <h3>Target</h3>
+    <input id="target-input" type="text" value="Tuomas Ravander">
+  </div>
+  <div class="input-group">
+    <h3>Population</h3>
+    <input id="popsize-input" type="number" step="1" min="1" max="10000" value="300">
+  </div>
+  <div class="input-group">
+    <h3>Mutation</h3>
+    <input id="mut-rate-input" type="number" step="1" min="0" max="100" value="1">
+  </div>
+  <button id="start-btn">Start</button>
+
+  <h1 id="best-fit-text"></h1>
+  <h3 id="total-gen-text"></h3>
+
+  <ul id="population">
+  </ul>
+
+  <script src="./index.js"></script>
+</body>
+</html>

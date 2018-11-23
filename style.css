@@ -1,0 +1,44 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.input-group {
+  display: inline-block;
+}
+
+.input-group > h3 {
+  margin: 0.3rem;
+}
+
+input, button {
+  display: block;
+
+  margin: 8px auto;
+  padding: 8px;
+
+  font-size: 1.0rem;
+  
+  background-color: white;
+  color: black;
+
+  border: 1px solid slategray;
+  border-radius: 0.5rem;
+
+  transition: 0.5s all;
+}
+
+input:hover, button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media (min-width: 601px) {
+  input, button {
+    display: inline-block;
+    padding: 16px;
+    font-size: 1.2rem;
+  }
+}
